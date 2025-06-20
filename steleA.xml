@@ -1,5 +1,5 @@
-<?xml-stylesheet type="text/xsl" href="steleA.xsl"?>
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="steleA.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
