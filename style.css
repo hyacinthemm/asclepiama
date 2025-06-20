@@ -1,25 +1,62 @@
 body {
   font-family: Georgia, serif;
+  background-color: #fdfbf7;
+  color: #222;
   max-width: 800px;
   margin: auto;
   padding: 2em;
   line-height: 1.6;
-  background-color: #fdfdfd;
-  color: #111;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.banniere {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 1em;
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   border-bottom: 2px solid #888;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.2em;
+}
+
+.surtitre {
+  font-style: italic;
+  font-size: 1.1em;
+  margin-top: 0.5em;
 }
 
 .miracle {
-  margin-bottom: 2em;
   border-bottom: 1px solid #ccc;
+  margin-bottom: 2em;
   padding-bottom: 1em;
 }
+
 .miracle h2 {
-  font-size: 1.3em;
-  margin-bottom: 0.2em;
+  color: #5b3924;
+  margin-bottom: 0.4em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+  font-size: 0.9em;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+
+.bouton {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #aaa;
+  border-radius: 6px;
 }
