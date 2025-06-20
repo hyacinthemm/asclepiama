@@ -1,0 +1,8 @@
+/* xml-style.css */
+* {
+  font-family: monospace;
+  white-space: pre-wrap;
+  color: #2a1e00;
+  background-color: #fdfcf9;
+  line-height: 1.6;
+}
