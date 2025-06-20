@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, serif;
-  background-color: #fdfbf7;
+  background-color: #fbfaf6;
   color: #222;
   max-width: 800px;
   margin: auto;
@@ -13,7 +13,7 @@ header {
   margin-bottom: 2em;
 }
 
-.banniere {
+.banner {
   max-width: 100%;
   border-radius: 8px;
   margin-top: 1em;
@@ -22,13 +22,33 @@ header {
 h1 {
   font-size: 2em;
   border-bottom: 2px solid #888;
-  padding-bottom: 0.2em;
+  padding-bottom: 0.3em;
 }
 
 .surtitre {
   font-style: italic;
   font-size: 1.1em;
   margin-top: 0.5em;
+}
+
+.nav-main {
+  text-align: center;
+  margin: 1em 0 2em 0;
+}
+
+.bouton {
+  display: inline-block;
+  margin: 0.3em;
+  padding: 0.5em 1em;
+  background-color: #e7e2d9;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.bouton:hover {
+  background-color: #dcd6cc;
 }
 
 .miracle {
@@ -48,15 +68,4 @@ footer {
   font-size: 0.9em;
   border-top: 1px solid #ccc;
   padding-top: 1em;
-}
-
-.bouton {
-  display: inline-block;
-  margin: 0.5em;
-  padding: 0.5em 1em;
-  background-color: #eee;
-  color: #333;
-  text-decoration: none;
-  border: 1px solid #aaa;
-  border-radius: 6px;
 }
