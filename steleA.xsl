@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-  <xsl:output method="html" indent="yes" encoding="UTF-8"/>
+<?xml-stylesheet type="text/xsl" href="steleA.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+  <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+  
   <xsl:template match="/">
-    <html lang="en">
+    <html>
       <head>
-        <meta charset="UTF-8"/>
-        <title><xsl:value-of select="//titleStmt/title"/></title>
-        <link rel="stylesheet" href="style.css"/>
+        <title>Iamata – Stèle A</title>
       </head>
       <body>
-        <header>
-          <h1><xsl:value-of select="//titleStmt/title"/></h1>
-          <nav><a class="bouton" href="index.html">Home</a></nav>
-        </header>
-        <main>
-          <xsl:for-each select="//div[@type='miracle']">
-            <div class="miracle">
-              <h2><xsl:value-of select="head"/></h2>
-              <p><xsl:value-of select="p"/></p>
-            </div>
-          </xsl:for-each>
-        </main>
-        <footer>
-          <p>Based on Attalus.org and encoded by Hyacinthe</p>
-        </footer>
+        <h1>Iamata of Epidaurus – Stele A</h1>
+        <xsl:apply-templates select="//tei:div"/>
       </body>
     </html>
   </xsl:template>
+
+  <xsl:template match="tei:div">
+    <div>
+      <h2><xsl:value-of select="tei:head"/></h2>
+      <xsl:apply-templates select="tei:p"/>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="tei:p">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
+
 </xsl:stylesheet>
