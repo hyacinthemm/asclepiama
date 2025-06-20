@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Iamata of Epidaurus – Stele A</title>
+        <author>Hyacinthe</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>GitHub Pages</publisher>
+        <date>2025-06</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Iamata A, IG IV² 121; translation from Attalus.org</bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="miracle" xml:id="m1">
+        <head>1. Cleo</head>
+        <p>Cleo, who was pregnant for five years, came as a suppliant to the god and slept in the abaton.
+           As soon as she left the temple precinct, she gave birth to a boy who, immediately, washed himself at the fountain and walked around with his mother.</p>
+      </div>
+      <div type="miracle" xml:id="m2">
+        <head>2. Ithmonika</head>
+        <p>Ithmonika of Pellene, pregnant for three years, came to the sanctuary to conceive a child. ... (full text)</p>
+      </div>
+      <div type="miracle" xml:id="m3">
+        <head>3. Euhippos</head>
+        <p>Euhippos, a man from Aegion who was mute from birth... (full text).</p>
+      </div>
+      <div type="miracle" xml:id="m4">
+        <head>4. Hermodikos</head>
+        <p>Hermodikos of Lampsacus, suffering from paralysis ... (full text).</p>
+      </div>
+    </body>
+  </text>
+</TEI>
